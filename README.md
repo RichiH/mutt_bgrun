@@ -1,6 +1,5 @@
 # mutt_bgrun
-Almost a verbatim copy of Gary Johnson's mutt_bgrun. I tweaked the creation of
-the used temporary directory.
+A verbatim copy of Gary Johnson's mutt_bgrun
 
-Original coul be found at http://www.spocom.com/users/gjohnson/mutt/mutt_bgrun,
-but this link seems to be dead now.
+Original can be found at http://www.spocom.com/users/gjohnson/mutt/mutt_bgrun - this is just so I don't lose it.
+If anyone is aware of a newer version or a link to a repo, please let me know.
