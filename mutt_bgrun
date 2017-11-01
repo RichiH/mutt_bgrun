@@ -95,9 +95,9 @@ file=$1
 # This is more secure than creating a temporary file in an existing
 # directory.
 
-tmpdir=/tmp/$LOGNAME$$
 umask 077
-mkdir "$tmpdir" || exit 1
+tmpdir=$(mktemp -d --tmpdir)
+[ -d "$tmpdir" ] || exit 1
 tmpfile="$tmpdir/${file##*/}"
 
 # Copy mutt's temporary file to our temporary directory so that we can
